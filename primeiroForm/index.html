@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORMULÁRIO</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
 </head>
 <body>
     <div class="form_container">
     <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
             <h3>Formulário</h3>
-    
+        
+        <!--text-->
         <div class="form_group">
-            <input type="text" name="campo_texto" minlength="5" maxlength="20">
+            <input type="text" name="campo_texto" minlength="5" maxlength="20" required placeholder="Indique o seu nome" value="Jhonata">
         </div>
 
+        <!--email-->
+        <div class="form_group">
+            <input type="email" name="campo_email">
+        </div>
+
+        <!--password-->
+        <div class="form_group">
+            <input type="password" name="campo_senha">
+        </div>
+
+        <!--namber-->
+        <div>
+            <input type="number" name="" id="">
+        </div>
+
+        <!--submit-->
         <div class="form_group">
             <input type="submit" value="Enviar">
         </div>
