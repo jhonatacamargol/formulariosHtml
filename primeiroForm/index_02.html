@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+    <link rel="shortcut icon" href="icone.png" type="image/png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="form_container">
+        <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+            <h3>Formulário</h3>
+            <div class="form_group">
+                <label>
+                    <input type="checkbox" name="check_atualizar" id="" value="atualizar">
+                    Atualizar os dados automátcamente.
+                </label>
+            </div>
+            <div class="form_group">
+                <label>
+                    <input type="checkbox" name="check_salvar" id="" value="salvar">
+                    Salvar toda a informação automátcamente.
+                </label>
+            </div>
+            <hr>
+            
+            <p>Gênero</p>
+            <div class="form_group">
+                <label>
+                    <input type="radio" name="genero" id="" value="masculino" checked>
+                    Masculino
+                </label>
+            </div>
+            <div class="form_group">
+                <label>
+                    <input type="radio" name="genero" id="" value="feminino">
+                    Feminino
+                </label>
+            </div>
+            <hr>
+
+            <p>Sistema Operacional</p>
+            <div class="form_group">
+                <label>
+                    <input type="radio" name="sistema_operacional" id="" value="windows" checked>
+                    Windows
+                </label>
+            </div>
+            <div class="form_group">
+                <label>
+                    <input type="radio" name="sistema_operacional" id="" value="linux">
+                    Linux
+                </label>
+            </div>
+            <div class="form_group">
+                <label>
+                    <input type="radio" name="sistema_operacional" id="" value="mac">
+                    Mac
+                </label>
+            </div>
+
+            <div class="form_group">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
