@@ -59,12 +59,24 @@
                     Mac
                 </label>
             </div>
+            
+            <div class="form_group">
+                <input type="range" name="campo_intervalo" min="10" max="100" step="10" oninput="mostrar(this.value)">
+                <p id="valor_range"></p>
+            </div>
+
+            <input type="hidden" name="campo_escondido" value="escondido">
 
             <div class="form_group">
                 <input type="submit" value="Enviar">
             </div>
         </form>
     </div>
-    
+
+    <script>
+        function mostrar(value) {
+            document.getElementById("valor_range").innerHTML = value
+        }
+    </script>
 </body>
 </html>
