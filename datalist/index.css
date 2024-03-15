@@ -1,0 +1,9 @@
+.form-container {
+    width: 800px;
+    margin: auto;
+    color: black;
+    height: 200px;
+}
+.form-group {
+    margin-bottom: 10px;
+}
